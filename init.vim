@@ -4,6 +4,7 @@ source $HOME/.config/nvim/keys/mappings.vim
 source $HOME/.config/nvim/plug-config/NERDtree-config.vim
 source $HOME/.config/nvim/plug-config/coc.vim
 source $HOME/.config/nvim/plug-config/commenter.vim
+source $HOME/.config/nvim/plug-config/general.vim
 source $HOME/.config/nvim/themes/theme.vim
 source $HOME/.config/nvim/themes/airline.vim
 

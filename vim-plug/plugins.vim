@@ -17,5 +17,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'vim-airline/vim-airline-themes'
     " Surround
     Plug 'tpope/vim-surround'
+    " Indentline
+    Plug 'Yggdroot/indentLine'
 
 call plug#end()

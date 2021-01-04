@@ -21,9 +21,9 @@
     "~/.config/nvim/utils/snips"
   ],
   // explorer
-  "explorer.width": 30,
+  "explorer.width": 35,
   "explorer.icon.enableNerdfont": false,
-  "explorer.previewAction.onHover": "labeling",
+  "explorer.previewAction.onHover": false,
   "explorer.keyMappings.global": {
     "<cr>": [
       "expandable?",
