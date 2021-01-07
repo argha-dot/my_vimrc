@@ -19,5 +19,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'tpope/vim-surround'
     " Indentline
     Plug 'Yggdroot/indentLine'
+    " Floating Terminal
+    Plug 'voldikss/vim-floaterm'
 
 call plug#end()
