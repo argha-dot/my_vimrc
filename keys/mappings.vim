@@ -52,5 +52,10 @@ nnoremap <C-Down> <C-w>j
 nnoremap <C-Up> <C-w>k
 nnoremap <C-Right> <C-w>l
 
+" Paste from the 0 register
+nnoremap <leader>p "0p
+nnoremap <leader>P "0P
+
+
 nnoremap <Leader>o o<Esc>^Da
 nnoremap <Leader>O O<Esc>^Da
