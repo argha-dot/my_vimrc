@@ -27,5 +27,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'ryanoasis/vim-devicons'
   " SimpylFold - For python folding
   Plug 'tmhedberg/SimpylFold'
+  " Git Gutter
+  Plug 'airblade/vim-gitgutter'
 
 call plug#end()
