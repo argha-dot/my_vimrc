@@ -29,5 +29,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'tmhedberg/SimpylFold'
   " Git Gutter
   Plug 'airblade/vim-gitgutter'
+  " Git Wrapper in vim
+  Plug 'tpope/vim-fugitive'
 
 call plug#end()
