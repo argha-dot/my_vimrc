@@ -1,5 +1,5 @@
 function! AirlineInit()
-  let g:airline_section_b = airline#section#create(['hunks', 'branch', '|', '%{strftime("%d/%m %H:%M")}'])
+  let g:airline_section_b = airline#section#create(['hunks', 'branch', ' ', '%{strftime("%d/%m %H:%M")}'])
 endfunction
 autocmd VimEnter * call AirlineInit()
 

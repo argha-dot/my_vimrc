@@ -11,3 +11,5 @@ nnoremap <space>, za
 " ^x^f for filenames
 " ^x^] for tags
 " use ^n and ^p to move back and forth the list
+
+autocmd InsertEnter * norm zz
