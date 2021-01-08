@@ -1,3 +1,16 @@
+" Coc Extensions
+let g:coc_global_extensions = [
+\ 'coc-explorer',
+\ 'coc-snippets',
+\ 'coc-eslint',
+\ 'coc-emmet',
+\ 'coc-html',
+\ 'coc-python',
+\ 'coc-tsserver',
+\ 'coc-snippets',
+\ ]
+
+
 " Explorer
 let g:coc_explorer_global_presets = {
 \   '.vim': {

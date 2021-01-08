@@ -31,5 +31,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'airblade/vim-gitgutter'
   " Git Wrapper in vim
   Plug 'tpope/vim-fugitive'
+  " Closing tags for everthing
+  Plug 'alvan/vim-closetag'
 
 call plug#end()
