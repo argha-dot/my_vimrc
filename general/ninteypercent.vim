@@ -1,6 +1,10 @@
+" Use :find TAB to search like a fuzzy file finder
 set path+=**
 set wildmenu
-" Use :find TAB to search like a fuzzy file finder
+
+set foldmethod=indent
+set foldlevel=99
+nnoremap <space>, za
 
 " AUTOCOMPLETE
 " ^x^n for just this file

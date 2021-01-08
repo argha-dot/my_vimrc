@@ -5,3 +5,4 @@ let g:user_emmet_settings = {
   \      'extends' : 'jsx',
   \  },
   \}
+let g:SimpylFold_docstring_preview=1

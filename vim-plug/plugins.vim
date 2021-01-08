@@ -25,5 +25,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'mattn/emmet-vim'
   " Nerd Font
   Plug 'ryanoasis/vim-devicons'
+  " SimpylFold - For python folding
+  Plug 'tmhedberg/SimpylFold'
 
 call plug#end()
