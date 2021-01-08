@@ -23,5 +23,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'voldikss/vim-floaterm'
   " Emmet vim
   Plug 'mattn/emmet-vim'
+  " Nerd Font
+  Plug 'ryanoasis/vim-devicons'
 
 call plug#end()
