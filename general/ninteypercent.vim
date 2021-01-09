@@ -4,7 +4,6 @@ set wildmenu
 
 set foldmethod=indent
 set foldlevel=99
-nnoremap <space>, za
 
 " AUTOCOMPLETE
 " ^x^n for just this file
@@ -13,3 +12,6 @@ nnoremap <space>, za
 " use ^n and ^p to move back and forth the list
 
 autocmd InsertEnter * norm zz
+
+
+command! Vimrc :vs $MYVIMRC
