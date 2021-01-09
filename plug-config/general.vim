@@ -1,5 +1,5 @@
 " Indentline Settings
-let g:indentLine_char = ''
+let g:indentLine_char = '|'
 
 " Emmet Settings
 let g:user_emmet_leader_key=','

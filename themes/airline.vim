@@ -1,5 +1,6 @@
 function! AirlineInit()
-  let g:airline_section_b = airline#section#create(['hunks', 'branch', ' ', '%{strftime("%d/%m %H:%M")}'])
+  let g:airline_section_b = airline#section#create(['hunks', 'branch'])
+  let g:airline_section_c = airline#section#create_left(['%t', '%{strftime("%d/%m %H:%M")}'])
 endfunction
 autocmd VimEnter * call AirlineInit()
 
@@ -15,8 +16,6 @@ let g:airline#extensions#tabline#formatter = 'unique_tail'
 let g:airline_powerline_fonts = 1
 let g:airline_left_sep = ''
 let g:airline_right_sep = ''
-let g:airline_section_c = '%t'
-
 " Switch to your current theme
 let g:airline_theme = 'onedark'
 
