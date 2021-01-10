@@ -9,6 +9,8 @@
     "json",
     "python"
   ],
+  // eslint
+  "eslint.autoFixOnSave": true,
   // emmet
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
