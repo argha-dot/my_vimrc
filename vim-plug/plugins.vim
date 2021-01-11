@@ -33,5 +33,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'tpope/vim-fugitive'
   " Closing tags for everthing
   Plug 'alvan/vim-closetag'
+  " Repeat for surround
+  Plug 'tpope/vim-repeat'
 
 call plug#end()
